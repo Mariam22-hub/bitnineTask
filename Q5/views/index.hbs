@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type = "text/css" href="/css/style.css">
+    <link rel="stylesheet"  href="../css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h4>Bitnine Task with NodeJS</h4>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+        </ul>
+    </nav>
+
+    {{#if message}}
+            <h4 class="alert alert-danger mt-4">{{message}}</h4>
+    {{/if}}
+
+    <div class="container py-5 px-3 my-4 rounded" style="background:#E9ECEF">
+        <h1 class="display-4 pb-2">Welcome to Bitnine Forms!</h1>
+        <p class="lead">This is a task for Bitnine's coding test </p>
+        <hr>
+        {{!-- <p class="py-2">This is peer to peer forum for sharing knowledge with each other</p> --}}
+        <div class="btn btn-primary">Learn more</div>
+    </div>
+
+
+</body>
+</html>

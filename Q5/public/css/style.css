@@ -1,0 +1,66 @@
+
+body{
+    margin: 0px;
+}
+
+.jumbotron{
+    background-color: burlywood;
+}
+
+.container.py-5.px-3.my-4.rounded{
+    padding: 45px;
+    /* margin-top: auto; */
+    margin: auto;
+    margin-top: 80px;
+    width: 50%;
+    height: 50%;
+}
+
+nav{
+    background-color: #563d7c;
+    color: white;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    justify-content: space-around;
+    display: flex; 
+    align-items: center; 
+}
+
+nav li{
+    list-style: none;
+
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.card.header{
+    padding: 10px;
+    background-color: #E5E4E2;
+}
+
+label[for=name]{
+    margin-top: 2px;
+}
+
+.form-group label:not(label[for=name]){
+    margin-top: 20.5px;
+}
+
+button[type=submit]{
+    margin-top: 15px;
+}
+
