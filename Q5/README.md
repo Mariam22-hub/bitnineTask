@@ -5,7 +5,7 @@
 - MySQL installed
 
 ## Running The code
-1) XAMPP server is needed to run the MySQL server. After starting the server, 
+1) Start the XAMPP server as it's needed to run the MySQL server. 
 2) Clone the repository
   ```
   git clone https://github.com/Mariam22-hub/bitnineTask/tree/main
