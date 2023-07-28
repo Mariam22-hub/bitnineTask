@@ -36,10 +36,4 @@ typedef struct Node {
 } Node;
 ````
 
-#### 2) [Problem 1 folder](https://github.com/Mariam22-hub/bitnine/tree/main/question%201)
-*This folder contains 2 solutions for question 1*
-
-
-#### 3) [Problem 2 folder](https://github.com/Mariam22-hub/bitnine/tree/main/question%202)
-
 
